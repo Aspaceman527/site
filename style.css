@@ -1,1 +1,13 @@
+/*cool background*/
+body{
+  background: mediumseagreen
+}
 
+/* going to make soon
+body{
+  background:background: rgb(0,150,70);
+background: -moz-radial-gradient(center, ellipse cover, rgb(0,150,70) 30%, rgb(0,146,10) 60%);
+background: -webkit-radial-gradient(center, ellipse cover, rgb(0,150,70) 30%,rgb(0,146,10) 60%);
+background: radial-gradient(ellipse at center, rgb(0,150,70) 30%,rgb(0,146,10) 60%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009646', endColorstr='#00920a',GradientType=1 );
+} */
