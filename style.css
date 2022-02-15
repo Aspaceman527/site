@@ -1,11 +1,12 @@
 /*cool background*/
-html {
-  background-color: #3cb371
+body {
+  font-family: HK Grotesk;
+  background-color: var(#69F7BE);
 }
 
 /* going to make soon
 body{
-  background:background: rgb(0,150,70);
+  background: rgb(0,150,70);
 background: -moz-radial-gradient(center, ellipse cover, rgb(0,150,70) 30%, rgb(0,146,10) 60%);
 background: -webkit-radial-gradient(center, ellipse cover, rgb(0,150,70) 30%,rgb(0,146,10) 60%);
 background: radial-gradient(ellipse at center, rgb(0,150,70) 30%,rgb(0,146,10) 60%);
