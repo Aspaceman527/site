@@ -1,5 +1,5 @@
   var a = 8
-  while(a = 8){
+  while(a == 8){
   var z = 3
 	if(z == 3){
 	var z = 2;
