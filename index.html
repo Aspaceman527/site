@@ -5,7 +5,7 @@
       <h3>More stuff coming soon!</h3>
         <a href="https://aspaceman527.github.io/games">games</a>
         <br>
-               <a href='https://aspaceman527.github.io/dont'>don't click this</a>
+               <a href='https://aspaceman527.github.io/dont'>don't click this<br></a>
                  <a href= 'https://github.com/Aspaceman527'>me</a>
   </body>
 </html>
@@ -96,7 +96,7 @@ self.addEventListener("fetch", (event) => {
           // the 4xx or 5xx range, the catch() will NOT be called.
           console.log("Fetch failed; returning offline page instead.", error);
 
-          const cache = await caches.open(CACHE_NAME);
+          const cache = await caches.open(CACHE);
           const cachedResponse = await cache.match(OFFLINE_URL);
           return cachedResponse;
         }
